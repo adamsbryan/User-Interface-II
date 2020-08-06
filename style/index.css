@@ -62,18 +62,14 @@ a{
 
 .first-row{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.pics{
+.second-row{
     display: flex;
     justify-content: space-between;
-}
-
-.text{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 5%;
+    text-align: center;
 }
 
 footer{
