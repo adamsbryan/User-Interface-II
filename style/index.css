@@ -1,1 +1,104 @@
 /* Add CSS styling here */
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color:#F8F8FF;
+}
+
+.left{
+    display: flex;
+    width: 60%;
+    padding-left: 2%;
+}
+
+.right{
+    display: flex;
+    width: 35%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.buttons .home{
+    color: white;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding:20%;
+    background-image: url("https://picsum.photos/1000/600/?blur=7")
+}
+
+.first-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+footer{
+    background-color: #FFF0F5;
+    padding: 5%;
+}
+
+.top h1{
+    font-size: xx-large;
+}
+.butproj{
+    background-color: white;
+    margin: 0 auto;
+    width: 30%;
+    padding: 1%;
+}
+
+.butcont{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: white;
+    width: 20%;
+    padding: 1%;
+}
